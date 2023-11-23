@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    width: 1440px;
+    height: 1700px;
+    margin: auto;
+    font-family: 'Joti One', serif;
+
+    background-color: gray;
+
+    
+}
+
+.banner{
+    margin-top: 30px;
+    width: 1440px;
+    height: 800.5px;
+    background-image: url(https://s3-alpha-sig.figma.com/img/50d4/a377/b57bcd92e9e792dfcb990f909ca7aa54?Expires=1700438400&Signature=U4IXbDryBCeVI54KeKxUCSbN~ELbuHCJ9tl0ASj3QrSq~c8GuziUupexlHhIraa7aPFZwzcS8i9e4F~OL10QILlwZdgtqbCUKNh9FBZ~f~QpjB5W9CzXJYYCYl26Yv-aL5frFuW9f5qIHoehN32ri6AfG~E9P60JIN0DRbLnOlwf-lCkSg~WmGP6lwhHgFd42~kj3oBdGASUGaY5k8DFlZ2-xZ-3hnffSeBVfem0cuqHCHD66J3laTUXrxuCtNMdkCwh9LINVm~TAwJgKB4dLqxvq81~tiA~nqJ6yAYrrnj~mEN-CSlCD48nRd7wPo8guzTeWO593GKNxlOins9f~A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    background-size: 100%;
+    position: absolute;
+}
+
+.triangel{
+    height: 0;
+    width: 0;
+    border-bottom: 250px solid #fff;
+    border-left: 1440px solid transparent;
+    position: absolute;
+    z-index: 2;
+    margin-top: 551px;
+}
+
+main{
+    position: absolute;
+    margin-top: 801px;
+    width: 1440px;
+    height: 650px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+main > .image{
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+
+    margin-top: -85px;
+}
+
+main > .image > img{
+    width: 60%;
+    height: auto;
+}
+
+main > .image > h2{
+    font-size: 40px;
+
+    margin-top: -40px;
+}
+
+.text1{
+    z-index: 10;
+    grid-column: 2/2;
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: -100px;
+}
+
+.text1 > h1{
+    font-size: 30px;
+    margin: auto;
+}
+
+section{
+    height: 400px;
+    width: 1440px;
+    background-color: #fff;
+    position: absolute;
+    margin-top: 1451px;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+footer{
+    height: 70px;
+    width: 1440px;
+    margin-top: 1851px;
+
+    background-color: #fff;
+
+    font-size: 30px;
+    text-align: center;
+}
+
+footer >h5{
+    
+    background-color: #219FC7;
+}
+
+
+
+
